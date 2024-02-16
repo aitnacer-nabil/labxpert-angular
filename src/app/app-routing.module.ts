@@ -24,6 +24,7 @@ import { UpdateEchantillonComponent } from './components/echantillon/update-echa
 import { HomeComponent } from './components/home/home.component';
 
 import {PlanificationComponent} from "./components/planification/planification.component";
+import {AuthenticationComponent} from "./authentication/authentication.component";
 
 
 
@@ -50,7 +51,7 @@ const routes: Routes = [
   { path: 'updateSample/:id', component: UpdateEchantillonComponent },
 
   { path: '', component: HomeComponent },
-
+  {path: "auth", component:AuthenticationComponent},
   { path: 'planification/all', component: PlanificationComponent }
 
 

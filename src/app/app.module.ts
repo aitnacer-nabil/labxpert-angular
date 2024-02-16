@@ -36,6 +36,7 @@ import { PlanificationComponent } from './components/planification/planification
 import { AddPlanificationComponent } from './components/planification/add-planification/add-planification.component';
 import { UpdateEchantillonComponent } from './components/echantillon/update-echantillon/update-echantillon.component';
 import { HomeComponent } from './components/home/home.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 
 
@@ -67,7 +68,8 @@ import { HomeComponent } from './components/home/home.component';
     PlanificationComponent,
     AddPlanificationComponent,
     UpdateEchantillonComponent,
-    HomeComponent
+    HomeComponent,
+    AuthenticationComponent
 
   ],
 
